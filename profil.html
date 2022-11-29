@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7250 University</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    
+    <nav>
+        <img src="assets/images/logo.png" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fa-solid fa-xmark"></i>
+                <li><a href="#">Home</a></li>
+                <li><a class="active" href="profil.html">Profil</a></li>
+                <li><a href="fakultas.html">Fakultas</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+            <img id="menu-btn" src="assets/images/menu.png" alt="">
+        </div>
+    </nav>
+    
+    <section id="profil-home">
+        <h2>Profil Institut 7250</h2>
+    </section>
+
+    <section id="profil-container">
+        <div class="profil-text">
+            <h1>Profil Institut 7250</h1>
+            <p>Sejarah Universitas 7250 Tangerang
+                Universitas 7250 Tangerang berdiri pada tanggal 20 Oktober 2022 yang didirikan oleh para tokoh pendidikan yang ada di Kota Tangerang. Adapun Universitas 7250 Tangerang terdiri dari ( 6 ) fakultas yaitu, ( 1 ) Fakultas Ekonomi, menyelenggarakan (2) jurusan yaitu jurusan Manajemen dan Akutansi ( 2 ) Fakultas Tarbiyah, menyelenggarakan ( 1 ) Jurusan yaitu Jurusan Pendidikan Agama Islam, ( 3 ) Fakultas Teknologi, menyelenggarakan ( 4 ) Jurusan yaitu Jurusan Perpustakaan dan Ilmu Informasi, Jurusan Teknik Informatika, Teknik Arsitektur, dan Jurusan Sistem Informasi, ( 4 ) Fakultas Hukum, menyelenggarakan ( 3 ) Jurusan yaitu Jurusan Hukum Tata Negara, Jurusan Hukum Internasional, dan Jurusan Hukum Ekonomi, ( 5 ) Fakultas Humainora, menyelenggarakan ( 2 ) Jurusan yaitu, Jurusan Sastra Inggris, dan Jurusan Sastra Indonesia, ( 6 ) Fakultas Ilmu Sosial, menyelenggarakan ( 3 ) Jurusan yaiut, Jurusan Sosiologi, Jurusan Sejarah, dan Jurusan Seni Rupa. 
+                Kampus ini terletak di jalan KH. Hasyim Asy’ari. GG. H.Ba’an. No.74, Kota Tangerang Banten yang luas lahanya sekitar 16 hektar, yang mebangun gedung-gedung dengan konsep modern secara fisik dan memberikan kenyamanan untuk para civitas akademik, adapun gedung-gedung yang dibangun terdiri dari gedung Perpustakaan, masjid, fakultas, gedung perkuliahan, support center, lapangan utama, taman baca, gedung rektorat, administrasi, dan kemahasiswaan.                
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-col">
+            <h3>Fakultas Teknologi</h3>
+            <li>Perpustakaan dan Ilmu Informasi</li>
+            <li>Teknik Informatika</li>
+            <li>Teknik Arsitektur</li>
+            <li>Sitem Informasi</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Fakultas Hukum</h3>
+            <li>Hukum Tata Negara</li>
+            <li>Hukum Internasional</li>
+            <li>Hukum Ekonomi</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Fakultas Ekonomi</h3>
+            <li>Manajemen</li>
+            <li>Akutansi</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Fakultas Tarbiyah</h3>
+            <li>Pendidikan Agama Islam</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Fakultas Humaniora</h3>
+            <li>Sastra Inggris</li>
+            <li>Sastra Indonesia</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Fakultas Ilmu Sosial</h3>
+            <li>Sosiologi</li>
+            <li>Sejarah</li>
+            <li>Seni Rupa</li>
+        </div>
+        
+        <div class="about-us">
+            <p>UNIVERSITAS 7250</p>
+        </div>
+    </footer>
+
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+</body>
+</html>
